@@ -3,6 +3,8 @@
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
+        int[] arr= {1,2,3,6,2};
+        Arrays.sort(arr);
 		 Stack<TreeNode> s = new Stack<>();
 		 TreeNode curr = root;
 		 while(!s.isEmpty() || curr != null) {
